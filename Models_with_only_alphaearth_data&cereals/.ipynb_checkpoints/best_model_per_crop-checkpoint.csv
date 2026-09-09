@@ -1,0 +1,6 @@
+Crop,Model,R2,RMSE,MAE,MAPE_pct
+Barley,XGBoost,0.049,0.399,0.265,19.24
+Buckwheat,Ridge,-0.388,6.818,2.892,248.03
+Maize,RandomForest,0.509,0.587,0.437,15.64
+Millet,RandomForest,-0.019,0.256,0.168,12.91
+Wheat,XGBoost,0.649,0.478,0.36,15.38

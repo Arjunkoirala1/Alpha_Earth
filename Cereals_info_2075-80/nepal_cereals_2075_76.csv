@@ -1,0 +1,386 @@
+Province     , District        , Crop     , Area_Ha, Production_Mt, Yield_MtHa, Year_BS, Year_AD
+KOSHI        , TAPLEJUNG       , Maize    , 9968   , 34160        , 3.43      , 2075/76, 2018/19
+KOSHI        , TAPLEJUNG       , Wheat    , 1538   , 2876         , 1.87      , 2075/76, 2018/19
+KOSHI        , SANKHUWASABHA   , Maize    , 12457  , 24154        , 1.94      , 2075/76, 2018/19
+KOSHI        , SANKHUWASABHA   , Wheat    , 715    , 1608         , 2.25      , 2075/76, 2018/19
+KOSHI        , SOLUKHUMBU      , Maize    , 13528  , 32751        , 2.42      , 2075/76, 2018/19
+KOSHI        , SOLUKHUMBU      , Wheat    , 2665   , 5103         , 1.91      , 2075/76, 2018/19
+KOSHI        , PANCHTHAR       , Maize    , 18879  , 37418        , 1.98      , 2075/76, 2018/19
+KOSHI        , PANCHTHAR       , Wheat    , 3055   , 7419         , 2.43      , 2075/76, 2018/19
+KOSHI        , ILLAM           , Maize    , 32798  , 120533       , 3.68      , 2075/76, 2018/19
+KOSHI        , ILLAM           , Wheat    , 4720   , 15449        , 3.27      , 2075/76, 2018/19
+KOSHI        , TERHATHUM       , Maize    , 12897  , 31082        , 2.41      , 2075/76, 2018/19
+KOSHI        , TERHATHUM       , Wheat    , 2401   , 4755         , 1.98      , 2075/76, 2018/19
+KOSHI        , DHANKUTA        , Maize    , 13467  , 41613        , 3.09      , 2075/76, 2018/19
+KOSHI        , DHANKUTA        , Wheat    , 1302   , 2800         , 2.15      , 2075/76, 2018/19
+KOSHI        , BHOJPUR         , Maize    , 37629  , 99378        , 2.64      , 2075/76, 2018/19
+KOSHI        , BHOJPUR         , Wheat    , 405    , 856          , 2.11      , 2075/76, 2018/19
+KOSHI        , KHOTANG         , Maize    , 42621  , 94219        , 2.21      , 2075/76, 2018/19
+KOSHI        , KHOTANG         , Wheat    , 5169   , 12584        , 2.43      , 2075/76, 2018/19
+KOSHI        , OKHALDHUNGA     , Maize    , 12937  , 33352        , 2.58      , 2075/76, 2018/19
+KOSHI        , OKHALDHUNGA     , Wheat    , 2210   , 4611         , 2.09      , 2075/76, 2018/19
+KOSHI        , UDAYAPUR        , Maize    , 17836  , 39846        , 2.23      , 2075/76, 2018/19
+KOSHI        , UDAYAPUR        , Wheat    , 5799   , 14020        , 2.42      , 2075/76, 2018/19
+KOSHI        , JHAPA           , Maize    , 38913  , 151644       , 3.9       , 2075/76, 2018/19
+KOSHI        , JHAPA           , Wheat    , 7500   , 29450        , 3.93      , 2075/76, 2018/19
+KOSHI        , MORANG          , Maize    , 17290  , 67103        , 3.88      , 2075/76, 2018/19
+KOSHI        , MORANG          , Wheat    , 12305  , 42773        , 3.48      , 2075/76, 2018/19
+KOSHI        , SUNSARI         , Maize    , 8896   , 24126        , 2.71      , 2075/76, 2018/19
+KOSHI        , SUNSARI         , Wheat    , 11848  , 47945        , 4.05      , 2075/76, 2018/19
+MADHESH      , SAPTARI         , Maize    , 3854   , 10999        , 2.85      , 2075/76, 2018/19
+MADHESH      , SAPTARI         , Wheat    , 15273  , 53103        , 3.48      , 2075/76, 2018/19
+MADHESH      , SIRAHA          , Maize    , 3816   , 8895         , 2.33      , 2075/76, 2018/19
+MADHESH      , SIRAHA          , Wheat    , 11777  , 39955        , 3.39      , 2075/76, 2018/19
+MADHESH      , DHANUSHA        , Maize    , 3284   , 9556         , 2.91      , 2075/76, 2018/19
+MADHESH      , DHANUSHA        , Wheat    , 36290  , 116708       , 3.22      , 2075/76, 2018/19
+MADHESH      , MAHOTTARI       , Maize    , 9714   , 24907        , 2.56      , 2075/76, 2018/19
+MADHESH      , MAHOTTARI       , Wheat    , 24292  , 72050        , 2.97      , 2075/76, 2018/19
+MADHESH      , SARLAHI         , Maize    , 11123  , 36050        , 3.24      , 2075/76, 2018/19
+MADHESH      , SARLAHI         , Wheat    , 22462  , 74138        , 3.3       , 2075/76, 2018/19
+MADHESH      , RAUTAHAT        , Maize    , 3416   , 10907        , 3.19      , 2075/76, 2018/19
+MADHESH      , RAUTAHAT        , Wheat    , 14982  , 53719        , 3.59      , 2075/76, 2018/19
+MADHESH      , BARA            , Maize    , 11941  , 43477        , 3.64      , 2075/76, 2018/19
+MADHESH      , BARA            , Wheat    , 27094  , 94329        , 3.48      , 2075/76, 2018/19
+MADHESH      , PARSA           , Maize    , 4412   , 16973        , 3.85      , 2075/76, 2018/19
+MADHESH      , PARSA           , Wheat    , 21981  , 78563        , 3.57      , 2075/76, 2018/19
+BAGMATI      , DOLAKHA         , Maize    , 6054   , 17018        , 2.81      , 2075/76, 2018/19
+BAGMATI      , DOLAKHA         , Wheat    , 4236   , 8260         , 1.95      , 2075/76, 2018/19
+BAGMATI      , SINDHUPALCHOK   , Maize    , 24687  , 69445        , 2.81      , 2075/76, 2018/19
+BAGMATI      , SINDHUPALCHOK   , Wheat    , 6927   , 8058         , 1.16      , 2075/76, 2018/19
+BAGMATI      , RASUWA          , Maize    , 2507   , 6017         , 2.4       , 2075/76, 2018/19
+BAGMATI      , RASUWA          , Wheat    , 701    , 1371         , 1.96      , 2075/76, 2018/19
+BAGMATI      , RAMECHAP        , Maize    , 22034  , 63370        , 2.88      , 2075/76, 2018/19
+BAGMATI      , RAMECHAP        , Wheat    , 3899   , 8816         , 2.26      , 2075/76, 2018/19
+BAGMATI      , SINDHULI        , Maize    , 25136  , 80284        , 3.19      , 2075/76, 2018/19
+BAGMATI      , SINDHULI        , Wheat    , 5645   , 17318        , 3.07      , 2075/76, 2018/19
+BAGMATI      , KAVRE           , Maize    , 24643  , 76590        , 3.11      , 2075/76, 2018/19
+BAGMATI      , KAVRE           , Wheat    , 8292   , 24030        , 2.9       , 2075/76, 2018/19
+BAGMATI      , BHAKTAPUR       , Maize    , 1998   , 8016         , 4.01      , 2075/76, 2018/19
+BAGMATI      , BHAKTAPUR       , Wheat    , 2172   , 11113        , 5.12      , 2075/76, 2018/19
+BAGMATI      , LALITPUR        , Maize    , 9165   , 31253        , 3.41      , 2075/76, 2018/19
+BAGMATI      , LALITPUR        , Wheat    , 2601   , 8870         , 3.41      , 2075/76, 2018/19
+BAGMATI      , KATHMANDU       , Maize    , 6420   , 24653        , 3.84      , 2075/76, 2018/19
+BAGMATI      , KATHMANDU       , Wheat    , 2141   , 8862         , 4.14      , 2075/76, 2018/19
+BAGMATI      , NUWAKOT         , Maize    , 16879  , 59650        , 3.53      , 2075/76, 2018/19
+BAGMATI      , NUWAKOT         , Wheat    , 4134   , 14069        , 3.4       , 2075/76, 2018/19
+BAGMATI      , DHADING         , Maize    , 20678  , 58601        , 2.83      , 2075/76, 2018/19
+BAGMATI      , DHADING         , Wheat    , 4638   , 12276        , 2.65      , 2075/76, 2018/19
+BAGMATI      , MAKWANPUR       , Maize    , 25886  , 81722        , 3.16      , 2075/76, 2018/19
+BAGMATI      , MAKWANPUR       , Wheat    , 3915   , 13202        , 3.37      , 2075/76, 2018/19
+BAGMATI      , CHITWAN         , Maize    , 5763   , 21381        , 3.71      , 2075/76, 2018/19
+BAGMATI      , CHITWAN         , Wheat    , 5055   , 23199        , 4.59      , 2075/76, 2018/19
+GANDAKI      , MANANG          , Maize    , 68     , 107          , 1.58      , 2075/76, 2018/19
+GANDAKI      , MANANG          , Wheat    , 199    , 278          , 1.4       , 2075/76, 2018/19
+GANDAKI      , MUSTANG         , Maize    , 551    , 920          , 1.67      , 2075/76, 2018/19
+GANDAKI      , MUSTANG         , Wheat    , 544    , 1028         , 1.89      , 2075/76, 2018/19
+GANDAKI      , GORKHA          , Maize    , 17567  , 45253        , 2.58      , 2075/76, 2018/19
+GANDAKI      , GORKHA          , Wheat    , 3653   , 7951         , 2.18      , 2075/76, 2018/19
+GANDAKI      , LAMJUNG         , Maize    , 9935   , 23943        , 2.41      , 2075/76, 2018/19
+GANDAKI      , LAMJUNG         , Wheat    , 1627   , 1381         , 0.85      , 2075/76, 2018/19
+GANDAKI      , TANAHU          , Maize    , 22647  , 73693        , 3.25      , 2075/76, 2018/19
+GANDAKI      , TANAHU          , Wheat    , 1682   , 3821         , 2.27      , 2075/76, 2018/19
+GANDAKI      , KASKI           , Maize    , 13624  , 34632        , 2.54      , 2075/76, 2018/19
+GANDAKI      , KASKI           , Wheat    , 5951   , 13303        , 2.24      , 2075/76, 2018/19
+GANDAKI      , PARBAT          , Maize    , 13673  , 31721        , 2.32      , 2075/76, 2018/19
+GANDAKI      , PARBAT          , Wheat    , 2646   , 6775         , 2.56      , 2075/76, 2018/19
+GANDAKI      , SYANGJA         , Maize    , 26457  , 96489        , 3.65      , 2075/76, 2018/19
+GANDAKI      , SYANGJA         , Wheat    , 5185   , 13446        , 2.59      , 2075/76, 2018/19
+GANDAKI      , MYAGDI          , Maize    , 9431   , 32697        , 3.47      , 2075/76, 2018/19
+GANDAKI      , MYAGDI          , Wheat    , 2861   , 7132         , 2.49      , 2075/76, 2018/19
+GANDAKI      , BAGLUNG         , Maize    , 20697  , 72170        , 3.49      , 2075/76, 2018/19
+GANDAKI      , BAGLUNG         , Wheat    , 6493   , 15439        , 2.38      , 2075/76, 2018/19
+GANDAKI      , NAWALPARASIEAST, Maize    , 4651   , 11683        , 2.51      , 2075/76, 2018/19
+GANDAKI      , NAWALPARASIEAST, Wheat    , 8409   , 22879        , 2.72      , 2075/76, 2018/19
+LUMBINI      , PALPA           , Maize    , 21031  , 48624        , 2.31      , 2075/76, 2018/19
+LUMBINI      , PALPA           , Wheat    , 5741   , 14710        , 2.56      , 2075/76, 2018/19
+LUMBINI      , GULMI           , Maize    , 24086  , 61829        , 2.57      , 2075/76, 2018/19
+LUMBINI      , GULMI           , Wheat    , 6601   , 19480        , 2.95      , 2075/76, 2018/19
+LUMBINI      , ARGHAKHANCHI    , Maize    , 16729  , 57715        , 3.45      , 2075/76, 2018/19
+LUMBINI      , ARGHAKHANCHI    , Wheat    , 5446   , 16067        , 2.95      , 2075/76, 2018/19
+LUMBINI      , NAWALPARASIWEST, Maize    , 4651   , 11683        , 2.51      , 2075/76, 2018/19
+LUMBINI      , NAWALPARASIWEST, Wheat    , 8409   , 23164        , 2.75      , 2075/76, 2018/19
+LUMBINI      , RUPANDEHI       , Maize    , 2691   , 10522        , 3.91      , 2075/76, 2018/19
+LUMBINI      , RUPANDEHI       , Wheat    , 26460  , 91832        , 3.47      , 2075/76, 2018/19
+LUMBINI      , KAPILBASTU      , Maize    , 2688   , 9803         , 3.65      , 2075/76, 2018/19
+LUMBINI      , KAPILBASTU      , Wheat    , 25667  , 103935       , 4.05      , 2075/76, 2018/19
+LUMBINI      , DANG            , Maize    , 25691  , 62095        , 2.42      , 2075/76, 2018/19
+LUMBINI      , DANG            , Wheat    , 11772  , 30048        , 2.55      , 2075/76, 2018/19
+LUMBINI      , BANKE           , Maize    , 9183   , 20386        , 2.22      , 2075/76, 2018/19
+LUMBINI      , BANKE           , Wheat    , 17798  , 66521        , 3.74      , 2075/76, 2018/19
+LUMBINI      , BARDIYA         , Maize    , 2697   , 7921         , 2.94      , 2075/76, 2018/19
+LUMBINI      , BARDIYA         , Wheat    , 17638  , 67057        , 3.8       , 2075/76, 2018/19
+LUMBINI      , RUKUMEAST      , Maize    , 8469   , 19834        , 2.34      , 2075/76, 2018/19
+LUMBINI      , RUKUMEAST      , Wheat    , 5466   , 13725        , 2.51      , 2075/76, 2018/19
+LUMBINI      , PYUTHAN         , Maize    , 11354  , 25172        , 2.22      , 2075/76, 2018/19
+LUMBINI      , PYUTHAN         , Wheat    , 8036   , 24885        , 3.1       , 2075/76, 2018/19
+LUMBINI      , ROLPA           , Maize    , 13264  , 34314        , 2.59      , 2075/76, 2018/19
+LUMBINI      , ROLPA           , Wheat    , 8417   , 24693        , 2.93      , 2075/76, 2018/19
+KARNALI      , DOLPA           , Maize    , 2308   , 3148         , 1.36      , 2075/76, 2018/19
+KARNALI      , DOLPA           , Wheat    , 2794   , 5015         , 1.79      , 2075/76, 2018/19
+KARNALI      , MUGU            , Maize    , 588    , 934          , 1.59      , 2075/76, 2018/19
+KARNALI      , MUGU            , Wheat    , 3255   , 3282         , 1.01      , 2075/76, 2018/19
+KARNALI      , HUMLA           , Maize    , 141    , 255          , 1.81      , 2075/76, 2018/19
+KARNALI      , HUMLA           , Wheat    , 957    , 1263         , 1.32      , 2075/76, 2018/19
+KARNALI      , JUMLA           , Maize    , 4327   , 6534         , 1.51      , 2075/76, 2018/19
+KARNALI      , JUMLA           , Wheat    , 2310   , 4204         , 1.82      , 2075/76, 2018/19
+KARNALI      , KALIKOT         , Maize    , 2998   , 6569         , 2.19      , 2075/76, 2018/19
+KARNALI      , KALIKOT         , Wheat    , 5039   , 6119         , 1.21      , 2075/76, 2018/19
+KARNALI      , RUKUMWEST      , Maize    , 8469   , 19834        , 2.34      , 2075/76, 2018/19
+KARNALI      , RUKUMWEST      , Wheat    , 5466   , 14771        , 2.7       , 2075/76, 2018/19
+KARNALI      , SALYAN          , Maize    , 20679  , 47334        , 2.29      , 2075/76, 2018/19
+KARNALI      , SALYAN          , Wheat    , 13914  , 32327        , 2.32      , 2075/76, 2018/19
+KARNALI      , JAJARKOT        , Maize    , 14693  , 36248        , 2.47      , 2075/76, 2018/19
+KARNALI      , JAJARKOT        , Wheat    , 14003  , 21634        , 1.54      , 2075/76, 2018/19
+KARNALI      , DAILEKH         , Maize    , 21331  , 52112        , 2.44      , 2075/76, 2018/19
+KARNALI      , DAILEKH         , Wheat    , 17785  , 30953        , 1.74      , 2075/76, 2018/19
+KARNALI      , SURKHET         , Maize    , 15781  , 44092        , 2.79      , 2075/76, 2018/19
+KARNALI      , SURKHET         , Wheat    , 14179  , 42122        , 2.97      , 2075/76, 2018/19
+SUDURPASHCHIM, BAJURA          , Maize    , 904    , 1444         , 1.6       , 2075/76, 2018/19
+SUDURPASHCHIM, BAJURA          , Wheat    , 6664   , 6265         , 0.94      , 2075/76, 2018/19
+SUDURPASHCHIM, BAJHANG         , Maize    , 4164   , 5792         , 1.39      , 2075/76, 2018/19
+SUDURPASHCHIM, BAJHANG         , Wheat    , 10260  , 16138        , 1.57      , 2075/76, 2018/19
+SUDURPASHCHIM, DARCHULA        , Maize    , 5739   , 12236        , 2.13      , 2075/76, 2018/19
+SUDURPASHCHIM, DARCHULA        , Wheat    , 6581   , 9688         , 1.47      , 2075/76, 2018/19
+SUDURPASHCHIM, ACHHAM          , Maize    , 6907   , 16349        , 2.37      , 2075/76, 2018/19
+SUDURPASHCHIM, ACHHAM          , Wheat    , 14460  , 25207        , 1.74      , 2075/76, 2018/19
+SUDURPASHCHIM, DOTI            , Maize    , 3642   , 8595         , 2.36      , 2075/76, 2018/19
+SUDURPASHCHIM, DOTI            , Wheat    , 12334  , 27770        , 2.25      , 2075/76, 2018/19
+SUDURPASHCHIM, BAITADI         , Maize    , 14990  , 27791        , 1.85      , 2075/76, 2018/19
+SUDURPASHCHIM, BAITADI         , Wheat    , 19527  , 21961        , 1.12      , 2075/76, 2018/19
+SUDURPASHCHIM, DADELDHURA      , Maize    , 3871   , 14280        , 3.69      , 2075/76, 2018/19
+SUDURPASHCHIM, DADELDHURA      , Wheat    , 9560   , 19363        , 2.03      , 2075/76, 2018/19
+SUDURPASHCHIM, KAILALI         , Maize    , 6386   , 18334        , 2.87      , 2075/76, 2018/19
+SUDURPASHCHIM, KAILALI         , Wheat    , 34994  , 109234       , 3.12      , 2075/76, 2018/19
+SUDURPASHCHIM, KANCHANPUR      , Maize    , 3168   , 7404         , 2.34      , 2075/76, 2018/19
+SUDURPASHCHIM, KANCHANPUR      , Wheat    , 33073  , 84544        , 2.56      , 2075/76, 2018/19
+KOSHI        , TAPLEJUNG       , Millet   , 3005   , 4193         , 1.4       , 2075/76, 2018/19
+KOSHI        , TAPLEJUNG       , Barley   , 265    , 364          , 1.37      , 2075/76, 2018/19
+KOSHI        , TAPLEJUNG       , Buckwheat, 109    , 153          , 1.4       , 2075/76, 2018/19
+KOSHI        , SANKHUWASABHA   , Millet   , 6663   , 8456         , 1.27      , 2075/76, 2018/19
+KOSHI        , SANKHUWASABHA   , Barley   , 15     , 17           , 1.13      , 2075/76, 2018/19
+KOSHI        , SANKHUWASABHA   , Buckwheat, 18     , 18           , 1.03      , 2075/76, 2018/19
+KOSHI        , SOLUKHUMBU      , Millet   , 1948   , 2672         , 1.37      , 2075/76, 2018/19
+KOSHI        , SOLUKHUMBU      , Barley   , 171    , 185          , 1.08      , 2075/76, 2018/19
+KOSHI        , SOLUKHUMBU      , Buckwheat, 294    , 264          , 0.9       , 2075/76, 2018/19
+KOSHI        , PANCHTHAR       , Millet   , 4751   , 9092         , 1.91      , 2075/76, 2018/19
+KOSHI        , PANCHTHAR       , Barley   , 302    , 405          , 1.34      , 2075/76, 2018/19
+KOSHI        , PANCHTHAR       , Buckwheat, 59     , 43           , 0.73      , 2075/76, 2018/19
+KOSHI        , ILLAM           , Millet   , 1692   , 1977         , 1.17      , 2075/76, 2018/19
+KOSHI        , ILLAM           , Barley   , 47     , 59           , 1.26      , 2075/76, 2018/19
+KOSHI        , ILLAM           , Buckwheat, 25     , 30           , 1.19      , 2075/76, 2018/19
+KOSHI        , TERHATHUM       , Millet   , 2604   , 2979         , 1.14      , 2075/76, 2018/19
+KOSHI        , TERHATHUM       , Barley   , 64     , 75           , 1.16      , 2075/76, 2018/19
+KOSHI        , TERHATHUM       , Buckwheat, 26     , 24           , 0.96      , 2075/76, 2018/19
+KOSHI        , DHANKUTA        , Millet   , 7934   , 9587         , 1.21      , 2075/76, 2018/19
+KOSHI        , DHANKUTA        , Barley   , N/A    , N/A          , N/A       , 2075/76, 2018/19
+KOSHI        , DHANKUTA        , Buckwheat, 6      , 5            , 0.83      , 2075/76, 2018/19
+KOSHI        , BHOJPUR         , Millet   , 5531   , 6983         , 1.26      , 2075/76, 2018/19
+KOSHI        , BHOJPUR         , Barley   , 10     , 12           , 1.2       , 2075/76, 2018/19
+KOSHI        , BHOJPUR         , Buckwheat, 32     , 28           , 0.86      , 2075/76, 2018/19
+KOSHI        , KHOTANG         , Millet   , 23744  , 26456        , 1.11      , 2075/76, 2018/19
+KOSHI        , KHOTANG         , Barley   , 355    , 485          , 1.37      , 2075/76, 2018/19
+KOSHI        , KHOTANG         , Buckwheat, 575    , 538          , 0.94      , 2075/76, 2018/19
+KOSHI        , OKHALDHUNGA     , Millet   , 7988   , 15285        , 1.91      , 2075/76, 2018/19
+KOSHI        , OKHALDHUNGA     , Barley   , 88     , 149          , 1.69      , 2075/76, 2018/19
+KOSHI        , OKHALDHUNGA     , Buckwheat, 96     , 90           , 0.94      , 2075/76, 2018/19
+KOSHI        , UDAYAPUR        , Millet   , 2864   , 5631         , 1.97      , 2075/76, 2018/19
+KOSHI        , UDAYAPUR        , Barley   , 33     , 58           , 1.76      , 2075/76, 2018/19
+KOSHI        , UDAYAPUR        , Buckwheat, 17     , 16           , 0.98      , 2075/76, 2018/19
+KOSHI        , JHAPA           , Millet   , 1224   , 1570         , 1.28      , 2075/76, 2018/19
+KOSHI        , JHAPA           , Barley   , 4      , 7            , 1.75      , 2075/76, 2018/19
+KOSHI        , JHAPA           , Buckwheat, 1032   , 1219         , 1.18      , 2075/76, 2018/19
+KOSHI        , MORANG          , Millet   , 1321   , 1606         , 1.22      , 2075/76, 2018/19
+KOSHI        , MORANG          , Barley   , N/A    , N/A          , N/A       , 2075/76, 2018/19
+KOSHI        , MORANG          , Buckwheat, 59     , 62           , 1.06      , 2075/76, 2018/19
+KOSHI        , SUNSARI         , Millet   , 592    , 693          , 1.17      , 2075/76, 2018/19
+KOSHI        , SUNSARI         , Barley   , 10     , 21           , 2.1       , 2075/76, 2018/19
+KOSHI        , SUNSARI         , Buckwheat, 285    , 294          , 1.03      , 2075/76, 2018/19
+MADHESH      , SAPTARI         , Millet   , 189    , 241          , 1.27      , 2075/76, 2018/19
+MADHESH      , SAPTARI         , Barley   , N/A    , N/A          , N/A       , 2075/76, 2018/19
+MADHESH      , SAPTARI         , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+MADHESH      , SIRAHA          , Millet   , 445    , 446          , 1.0       , 2075/76, 2018/19
+MADHESH      , SIRAHA          , Barley   , N/A    , N/A          , N/A       , 2075/76, 2018/19
+MADHESH      , SIRAHA          , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+MADHESH      , DHANUSHA        , Millet   , 184    , 178          , 0.96      , 2075/76, 2018/19
+MADHESH      , DHANUSHA        , Barley   , 2      , 3            , 1.5       , 2075/76, 2018/19
+MADHESH      , DHANUSHA        , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+MADHESH      , MAHOTTARI       , Millet   , N/A    , N/A          , N/A2075/76, 2018/19
+MADHESH      , MAHOTTARI       , Barley   , 8      , 8            , 1.0       , 2075/76, 2018/19
+MADHESH      , MAHOTTARI       , Barley   , N/A    , N/A          , N/A       , 2075/76, 2018/19
+MADHESH      , SARLAHI         , Millet   , 747    , 653          , 0.88      , 2075/76, 2018/19
+MADHESH      , SARLAHI         , Barley   , 62     , 69           , 1.11      , 2075/76, 2018/19
+MADHESH      , SARLAHI         , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+MADHESH      , RAUTAHAT        , Millet   , 66     , 70           , 1.06      , 2075/76, 2018/19
+MADHESH      , RAUTAHAT        , Barley   , 3      , 4            , 1.38      , 2075/76, 2018/19
+MADHESH      , RAUTAHAT        , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+MADHESH      , BARA            , Millet   , 69     , 75           , 1.08      , 2075/76, 2018/19
+MADHESH      , BARA            , Barley   , 39     , 85           , 2.18      , 2075/76, 2018/19
+MADHESH      , BARA            , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+MADHESH      , PARSA           , Millet   , N/A    , N/A          , N/A       , 2075/76, 2018/19
+MADHESH      , PARSA           , Barley   , 30     , 41           , 1.37      , 2075/76, 2018/19
+MADHESH      , PARSA           , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+BAGMATI      , DOLAKHA         , Millet   , 3556   , 4759         , 1.34      , 2075/76, 2018/19
+BAGMATI      , DOLAKHA         , Barley   , 145    , 173          , 1.19      , 2075/76, 2018/19
+BAGMATI      , DOLAKHA         , Buckwheat, 899    , 1043         , 1.16      , 2075/76, 2018/19
+BAGMATI      , SINDHUPALCHOK   , Millet   , 16659  , 21853        , 1.31      , 2075/76, 2018/19
+BAGMATI      , SINDHUPALCHOK   , Barley   , 172    , 199          , 1.16      , 2075/76, 2018/19
+BAGMATI      , SINDHUPALCHOK   , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+BAGMATI      , RASUWA          , Millet   , 831    , 890          , 1.07      , 2075/76, 2018/19
+BAGMATI      , RASUWA          , Barley   , 254    , 324          , 1.27      , 2075/76, 2018/19
+BAGMATI      , RASUWA          , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+BAGMATI      , RAMECHAP        , Millet   , 4933   , 5701         , 1.16      , 2075/76, 2018/19
+BAGMATI      , RAMECHAP        , Barley   , 62     , 80           , 1.28      , 2075/76, 2018/19
+BAGMATI      , RAMECHAP        , Buckwheat, 17     , 17           , 1.03      , 2075/76, 2018/19
+BAGMATI      , SINDHULI        , Millet   , 11801  , 12954        , 1.1       , 2075/76, 2018/19
+BAGMATI      , SINDHULI        , Barley   , 42     , 66           , 1.57      , 2075/76, 2018/19
+BAGMATI      , SINDHULI        , Buckwheat, 498    , 474          , 0.95      , 2075/76, 2018/19
+BAGMATI      , KAVRE           , Millet   , 3595   , 4176         , 1.16      , 2075/76, 2018/19
+BAGMATI      , KAVRE           , Barley   , 357    , 596          , 1.67      , 2075/76, 2018/19
+BAGMATI      , KAVRE           , Buckwheat, 593    , 593          , 1.0       , 2075/76, 2018/19
+BAGMATI      , BHAKTAPUR       , Millet   , 112    , 139          , 1.24      , 2075/76, 2018/19
+BAGMATI      , BHAKTAPUR       , Barley   , 18     , 37           , 2.08      , 2075/76, 2018/19
+BAGMATI      , BHAKTAPUR       , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+BAGMATI      , LALITPUR        , Millet   , 560    , 576          , 1.03      , 2075/76, 2018/19
+BAGMATI      , LALITPUR        , Barley   , 40     , 53           , 1.34      , 2075/76, 2018/19
+BAGMATI      , LALITPUR        , Buckwheat, 44     , 45           , 1.01      , 2075/76, 2018/19
+BAGMATI      , KATHMANDU       , Millet   , 608    , 638          , 1.05      , 2075/76, 2018/19
+BAGMATI      , KATHMANDU       , Barley   , 3      , 3            , 1.25      , 2075/76, 2018/19
+BAGMATI      , KATHMANDU       , Buckwheat, 4      , 5            , 1.03      , 2075/76, 2018/19
+BAGMATI      , NUWAKOT         , Millet   , 5158   , 6382         , 1.24      , 2075/76, 2018/19
+BAGMATI      , NUWAKOT         , Barley   , 152    , 196          , 1.29      , 2075/76, 2018/19
+BAGMATI      , NUWAKOT         , Buckwheat, 177    , 183          , 1.04      , 2075/76, 2018/19
+BAGMATI      , DHADING         , Millet   , 6933   , 6408         , 0.92      , 2075/76, 2018/19
+BAGMATI      , DHADING         , Barley   , 255    , 346          , 1.36      , 2075/76, 2018/19
+BAGMATI      , DHADING         , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+BAGMATI      , MAKWANPUR       , Millet   , 2774   , 3467         , 1.25      , 2075/76, 2018/19
+BAGMATI      , MAKWANPUR       , Barley   , 252    , 355          , 1.41      , 2075/76, 2018/19
+BAGMATI      , MAKWANPUR       , Buckwheat, 184    , 198          , 1.08      , 2075/76, 2018/19
+BAGMATI      , CHITWAN         , Millet   , 1483   , 1522         , 1.03      , 2075/76, 2018/19
+BAGMATI      , CHITWAN         , Barley   , 19     , 36           , 1.92      , 2075/76, 2018/19
+BAGMATI      , CHITWAN         , Buckwheat, 67     , 73           , 1.09      , 2075/76, 2018/19
+GANDAKI      , MANANG          , Millet   , N/A    , N/A          , N/A       , 2075/76, 2018/19
+GANDAKI      , MANANG          , Barley   , 109    , 191          , 1.76      , 2075/76, 2018/19
+GANDAKI      , MANANG          , Buckwheat, 263    , 491          , 1.87      , 2075/76, 2018/19
+GANDAKI      , MUSTANG         , Millet   , N/A    , N/A          , N/A       , 2075/76, 2018/19
+GANDAKI      , MUSTANG         , Barley   , 255    , 479          , 1.88      , 2075/76, 2018/19
+GANDAKI      , MUSTANG         , Buckwheat, 544    , 956          , 1.76      , 2075/76, 2018/19
+GANDAKI      , GORKHA          , Millet   , 11721  , 14903        , 1.27      , 2075/76, 2018/19
+GANDAKI      , GORKHA          , Barley   , 97     , 138          , 1.43      , 2075/76, 2018/19
+GANDAKI      , GORKHA          , Buckwheat, 358    , 374          , 1.04      , 2075/76, 2018/19
+GANDAKI      , LAMJUNG         , Millet   , 7511   , 7291         , 0.97      , 2075/76, 2018/19
+GANDAKI      , LAMJUNG         , Barley   , 36     , 53           , 1.48      , 2075/76, 2018/19
+GANDAKI      , LAMJUNG         , Buckwheat, 13     , 13           , 0.96      , 2075/76, 2018/19
+GANDAKI      , TANAHU          , Millet   , 6558   , 5905         , 0.9       , 2075/76, 2018/19
+GANDAKI      , TANAHU          , Barley   , 5      , 5            , 0.93      , 2075/76, 2018/19
+GANDAKI      , TANAHU          , Buckwheat, 169    , 170          , 1.0       , 2075/76, 2018/19
+GANDAKI      , KASKI           , Millet   , 15441  , 18973        , 1.23      , 2075/76, 2018/19
+GANDAKI      , KASKI           , Barley   , 110    , 171          , 1.55      , 2075/76, 2018/19
+GANDAKI      , KASKI           , Buckwheat, 12     , 15           , 1.18      , 2075/76, 2018/19
+GANDAKI      , PARBAT          , Millet   , 8502   , 7997         , 0.94      , 2075/76, 2018/19
+GANDAKI      , PARBAT          , Barley   , 79     , 104          , 1.32      , 2075/76, 2018/19
+GANDAKI      , PARBAT          , Buckwheat, 44     , 45           , 1.01      , 2075/76, 2018/19
+GANDAKI      , SYANGJA         , Millet   , 15932  , 18544        , 1.16      , 2075/76, 2018/19
+GANDAKI      , SYANGJA         , Barley   , 4      , 5            , 1.49      , 2075/76, 2018/19
+GANDAKI      , SYANGJA         , Buckwheat, 213    , 211          , 0.99      , 2075/76, 2018/19
+GANDAKI      , MYAGDI          , Millet   , 2531   , 3366         , 1.33      , 2075/76, 2018/19
+GANDAKI      , MYAGDI          , Barley   , 274    , 370          , 1.35      , 2075/76, 2018/19
+GANDAKI      , MYAGDI          , Buckwheat, 141    , 138          , 0.98      , 2075/76, 2018/19
+GANDAKI      , BAGLUNG         , Millet   , 18163  , 22505        , 1.24      , 2075/76, 2018/19
+GANDAKI      , BAGLUNG         , Barley   , 776    , 1115         , 1.44      , 2075/76, 2018/19
+GANDAKI      , BAGLUNG         , Buckwheat, 76     , 111          , 1.46      , 2075/76, 2018/19
+GANDAKI      , NAWALPARASIEAST, Millet   , 251    , 256          , 1.02      , 2075/76, 2018/19
+GANDAKI      , NAWALPARASIEAST, Barley   , 9      , 11           , 1.22      , 2075/76, 2018/19
+GANDAKI      , NAWALPARASIEAST, Buckwheat, 79     , 78           , 0.99      , 2075/76, 2018/19
+LUMBINI      , PALPA           , Millet   , 2634   , 2792         , 1.06      , 2075/76, 2018/19
+LUMBINI      , PALPA           , Barley   , 19     , 33           , 1.78      , 2075/76, 2018/19
+LUMBINI      , PALPA           , Buckwheat, 432    , 407          , 0.94      , 2075/76, 2018/19
+LUMBINI      , GULMI           , Millet   , 2997   , 3044         , 1.02      , 2075/76, 2018/19
+LUMBINI      , GULMI           , Barley   , 242    , 425          , 1.76      , 2075/76, 2018/19
+LUMBINI      , GULMI           , Buckwheat, 213    , 254          , 1.19      , 2075/76, 2018/19
+LUMBINI      , ARGHAKHANCHI    , Millet   , 499    , 639          , 1.28      , 2075/76, 2018/19
+LUMBINI      , ARGHAKHANCHI    , Barley   , 219    , 387          , 1.77      , 2075/76, 2018/19
+LUMBINI      , ARGHAKHANCHI    , Buckwheat, 248    , 223          , 0.9       , 2075/76, 2018/19
+LUMBINI      , NAWALPARASIWEST, Millet   , 221    , 232          , 1.05      , 2075/76, 2018/19
+LUMBINI      , NAWALPARASIWEST, Barley   , 4      , 5            , 1.11      , 2075/76, 2018/19
+LUMBINI      , NAWALPARASIWEST, Buckwheat, 80     , 78           , 0.97      , 2075/76, 2018/19
+LUMBINI      , RUPANDEHI       , Millet   , 41     , 46           , 1.12      , 2075/76, 2018/19
+LUMBINI      , RUPANDEHI       , Barley   , 75     , 194          , 2.59      , 2075/76, 2018/19
+LUMBINI      , RUPANDEHI       , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+LUMBINI      , KAPILBASTU      , Millet   , N/A    , N/A          , N/A       , 2075/76, 2018/19
+LUMBINI      , KAPILBASTU      , Barley   , 178    , 328          , 1.84      , 2075/76, 2018/19
+LUMBINI      , KAPILBASTU      , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+LUMBINI      , DANG            , Millet   , 15     , 16           , 1.05      , 2075/76, 2018/19
+LUMBINI      , DANG            , Barley   , 22     , 27           , 1.2       , 2075/76, 2018/19
+LUMBINI      , DANG            , Buckwheat, 18     , 18           , 1.03      , 2075/76, 2018/19
+LUMBINI      , BANKE           , Millet   , N/A    , N/A          , N/A       , 2075/76, 2018/19
+LUMBINI      , BANKE           , Barley   , 9      , 10           , 1.11      , 2075/76, 2018/19
+LUMBINI      , BANKE           , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+LUMBINI      , BARDIYA         , Millet   , N/A    , N/A          , N/A       , 2075/76, 2018/19
+LUMBINI      , BARDIYA         , Barley   , 9      , 10           , 1.11      , 2075/76, 2018/19
+LUMBINI      , BARDIYA         , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+LUMBINI      , RUKUMEAST      , Millet   , 458    , 614          , 1.34      , 2075/76, 2018/19
+LUMBINI      , RUKUMEAST      , Barley   , 413    , 521          , 1.26      , 2075/76, 2018/19
+LUMBINI      , RUKUMEAST      , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+LUMBINI      , PYUTHAN         , Millet   , 2088   , 2324         , 1.11      , 2075/76, 2018/19
+LUMBINI      , PYUTHAN         , Barley   , 467    , 762          , 1.63      , 2075/76, 2018/19
+LUMBINI      , PYUTHAN         , Buckwheat, 11     , 12           , 1.03      , 2075/76, 2018/19
+LUMBINI      , ROLPA           , Millet   , 1024   , 1162         , 1.13      , 2075/76, 2018/19
+LUMBINI      , ROLPA           , Barley   , 560    , 654          , 1.17      , 2075/76, 2018/19
+LUMBINI      , ROLPA           , Buckwheat, 114    , 102          , 0.9       , 2075/76, 2018/19
+KARNALI      , DOLPA           , Millet   , 277    , 302          , 1.09      , 2075/76, 2018/19
+KARNALI      , DOLPA           , Barley   , 355    , 344          , 0.97      , 2075/76, 2018/19
+KARNALI      , DOLPA           , Buckwheat, 644    , 681          , 1.06      , 2075/76, 2018/19
+KARNALI      , MUGU            , Millet   , 4219   , 3250         , 0.77      , 2075/76, 2018/19
+KARNALI      , MUGU            , Barley   , 1036   , 1149         , 1.11      , 2075/76, 2018/19
+KARNALI      , MUGU            , Buckwheat, 455    , 431          , 0.95      , 2075/76, 2018/19
+KARNALI      , HUMLA           , Millet   , 1294   , 1497         , 1.16      , 2075/76, 2018/19
+KARNALI      , HUMLA           , Barley   , 614    , 799          , 1.3       , 2075/76, 2018/19
+KARNALI      , HUMLA           , Buckwheat, 632    , 770          , 1.22      , 2075/76, 2018/19
+KARNALI      , JUMLA           , Millet   , 3698   , 3885         , 1.05      , 2075/76, 2018/19
+KARNALI      , JUMLA           , Barley   , 3379   , 5732         , 1.7       , 2075/76, 2018/19
+KARNALI      , JUMLA           , Buckwheat, 77     , 79           , 1.03      , 2075/76, 2018/19
+KARNALI      , KALIKOT         , Millet   , 1228   , 1290         , 1.05      , 2075/76, 2018/19
+KARNALI      , KALIKOT         , Barley   , 829    , 1252         , 1.51      , 2075/76, 2018/19
+KARNALI      , KALIKOT         , Buckwheat, 111    , 126          , 1.14      , 2075/76, 2018/19
+KARNALI      , RUKUMWEST      , Millet   , 463    , 609          , 1.32      , 2075/76, 2018/19
+KARNALI      , RUKUMWEST      , Barley   , 399    , 499          , 1.25      , 2075/76, 2018/19
+KARNALI      , RUKUMWEST      , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+KARNALI      , SALYAN          , Millet   , 1015   , 1126         , 1.11      , 2075/76, 2018/19
+KARNALI      , SALYAN          , Barley   , 952    , 1270         , 1.33      , 2075/76, 2018/19
+KARNALI      , SALYAN          , Buckwheat, 58     , 68           , 1.17      , 2075/76, 2018/19
+KARNALI      , JAJARKOT        , Millet   , 1724   , 1916         , 1.11      , 2075/76, 2018/19
+KARNALI      , JAJARKOT        , Barley   , 618    , 694          , 1.12      , 2075/76, 2018/19
+KARNALI      , JAJARKOT        , Buckwheat, 28     , 26           , 0.95      , 2075/76, 2018/19
+KARNALI      , DAILEKH         , Millet   , 2489   , 2865         , 1.15      , 2075/76, 2018/19
+KARNALI      , DAILEKH         , Barley   , 178    , 207          , 1.16      , 2075/76, 2018/19
+KARNALI      , DAILEKH         , Buckwheat, 24     , 24           , 0.99      , 2075/76, 2018/19
+KARNALI      , SURKHET         , Millet   , 2066   , 2934         , 1.42      , 2075/76, 2018/19
+KARNALI      , SURKHET         , Barley   , 929    , 1420         , 1.53      , 2075/76, 2018/19
+KARNALI      , SURKHET         , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+SUDURPASHCHIM, BAJURA          , Millet   , 2545   , 2588         , 1.02      , 2075/76, 2018/19
+SUDURPASHCHIM, BAJURA          , Barley   , 955    , 958          , 1.0       , 2075/76, 2018/19
+SUDURPASHCHIM, BAJURA          , Buckwheat, 7      , 11           , 1.55      , 2075/76, 2018/19
+SUDURPASHCHIM, BAJHANG         , Millet   , 2736   , 2057         , 0.75      , 2075/76, 2018/19
+SUDURPASHCHIM, BAJHANG         , Barley   , 3971   , 2943         , 0.74      , 2075/76, 2018/19
+SUDURPASHCHIM, BAJHANG         , Buckwheat, 6      , 7            , 1.18      , 2075/76, 2018/19
+SUDURPASHCHIM, DARCHULA        , Millet   , 1374   , 1133         , 0.82      , 2075/76, 2018/19
+SUDURPASHCHIM, DARCHULA        , Barley   , 1069   , 866          , 0.81      , 2075/76, 2018/19
+SUDURPASHCHIM, DARCHULA        , Buckwheat, 92     , 95           , 1.03      , 2075/76, 2018/19
+SUDURPASHCHIM, ACHHAM          , Millet   , 3430   , 3840         , 1.12      , 2075/76, 2018/19
+SUDURPASHCHIM, ACHHAM          , Barley   , 446    , 544          , 1.22      , 2075/76, 2018/19
+SUDURPASHCHIM, ACHHAM          , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+SUDURPASHCHIM, DOTI            , Millet   , 4577   , 4933         , 1.08      , 2075/76, 2018/19
+SUDURPASHCHIM, DOTI            , Barley   , 187    , 175          , 0.94      , 2075/76, 2018/19
+SUDURPASHCHIM, DOTI            , Buckwheat, 12     , 11           , 0.95      , 2075/76, 2018/19
+SUDURPASHCHIM, BAITADI         , Millet   , 352    , 408          , 1.16      , 2075/76, 2018/19
+SUDURPASHCHIM, BAITADI         , Barley   , 885    , 599          , 0.68      , 2075/76, 2018/19
+SUDURPASHCHIM, BAITADI         , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+SUDURPASHCHIM, DADELDHURA      , Millet   , 259    , 304          , 1.18      , 2075/76, 2018/19
+SUDURPASHCHIM, DADELDHURA      , Barley   , 175    , 238          , 1.36      , 2075/76, 2018/19
+SUDURPASHCHIM, DADELDHURA      , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
+SUDURPASHCHIM, KAILALI         , Millet   , 363    , 369          , 1.02      , 2075/76, 2018/19
+SUDURPASHCHIM, KAILALI         , Barley   , 175    , 345          , 1.97      , 2075/76, 2018/19
+SUDURPASHCHIM, KAILALI         , Buckwheat, 21     , 26           , 1.21      , 2075/76, 2018/19
+SUDURPASHCHIM, KANCHANPUR      , Millet   , N/A    , N/A          , N/A       , 2075/76, 2018/19
+SUDURPASHCHIM, KANCHANPUR      , Barley   , 8      , 10           , 1.25      , 2075/76, 2018/19
+SUDURPASHCHIM, KANCHANPUR      , Buckwheat, N/A    , N/A          , N/A       , 2075/76, 2018/19
