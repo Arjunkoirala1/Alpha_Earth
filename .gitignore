@@ -1,1 +1,29 @@
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large geospatial files
 *.tif
+*.tiff
+*.jp2
+*.img
+
+# Models
+*.joblib
+*.pkl
+*.h5
+*.pt
+
+# Environment/secrets
+.env
+
+# Temporary files
+*.save
