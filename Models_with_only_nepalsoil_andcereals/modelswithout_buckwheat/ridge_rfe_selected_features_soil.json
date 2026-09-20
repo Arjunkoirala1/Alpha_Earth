@@ -1,0 +1,54 @@
+{
+  "Barley": [
+    "Elevation_Min",
+    "Elevation_Max",
+    "Slope_Median",
+    "longitude",
+    "latitude",
+    "Parent_Material_MA2"
+  ],
+  "Maize": [
+    "Elevation_Min",
+    "Elevation_Max",
+    "Slope_Median",
+    "area",
+    "longitude",
+    "latitude",
+    "Potassium_mean",
+    "Nitrogen_mean",
+    "Landform_SV",
+    "Landform_TM",
+    "Parent_Material_MA2",
+    "Parent_Material_MB1",
+    "Parent_Material_SC2",
+    "Parent_Material_UF2",
+    "Dominant_Soil_CMx",
+    "Dominant_Soil_RGe"
+  ],
+  "Millet": [
+    "Slope_Median",
+    "longitude",
+    "latitude",
+    "Potassium_mean",
+    "Phosphorous_mean",
+    "pH_mean"
+  ],
+  "Wheat": [
+    "Elevation_Min",
+    "Slope_Median",
+    "area",
+    "longitude",
+    "latitude",
+    "Potassium_mean",
+    "Nitrogen_mean",
+    "OrganicMatter_mean",
+    "Phosphorous_mean",
+    "pH_mean",
+    "Landform_SV",
+    "Parent_Material_MB1",
+    "Parent_Material_UF1",
+    "Parent_Material_UF2",
+    "Dominant_Soil_CMu",
+    "Dominant_Soil_CMx"
+  ]
+}
