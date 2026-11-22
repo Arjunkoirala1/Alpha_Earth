@@ -1,20 +1,4 @@
-"""
-Nepal crop yield dataset - corrected merge pipeline.
 
-Fixes vs. the previous version:
-  1. THE MAIN BUG: crop data is now loaded from ALL 5 year-files and joined
-     on (district_key, Year_BS) -- not just district_key. The old script only
-     ever read nepal_all_cereals_2078_79.csv, so every district's crop numbers
-     were identical across all 5 years (2078/79's values copy-pasted 5x).
-  2. Cereal source rows containing "N/A" are treated as missing (NaN), not
-     as a real duplicate record.
-  3. Exact duplicate (district, crop, year) rows in the raw cereal files are
-     dropped before pivoting, so pivot_table can't silently pick one at random.
-  4. Soil_Type is not touched/needed here since district_soil_data_cleaned.csv
-     no longer contains it -- avoids the CSV-quoting bug from before entirely.
-  5. Runs a validation pass at the end that would have caught the original bug:
-     confirms crop values actually differ across years per district.
-"""
 
 import pandas as pd
 import re
@@ -68,11 +52,7 @@ def clean_str_cols(df):
     return df
 
 
-# ---------------------------------------------------------------------
-# 1. Load each source
-# ---------------------------------------------------------------------
-
-# --- 1a. AlphaEarth embeddings (defines base grain: district x year) ---
+# AlphaEarth embeddings (defines base grain: district x year) 
 alpha = pd.read_csv(find_csv("Nepal_77Districts_QGIS_AlphaEarth.csv"))
 alpha.columns = [c.strip() for c in alpha.columns]
 alpha = clean_str_cols(alpha)
@@ -88,7 +68,7 @@ if year_col != "Year_AD":
 alpha["Year_BS"] = alpha["Year_BS"].str.strip()
 
 
-# --- 1b. NPK / soil chemistry (static per district) ---
+# NPK / soil chemistry (static per district)
 npk = pd.read_csv(find_csv("NPKPhOrganicmatter_csv.csv"))
 npk.columns = [c.strip() for c in npk.columns]
 npk = clean_str_cols(npk)
@@ -109,7 +89,7 @@ if npk_dupes:
     raise ValueError(f"NPK source has {npk_dupes} duplicate district_key rows -- fix source before merging.")
 
 
-# --- 1c. Landform / soil type (static per district) ---
+#  Landform / soil type (static per district)
 soil = pd.read_csv(find_csv("district_soil_data_final_corrected.csv"), skipinitialspace=True)
 soil.columns = [c.strip() for c in soil.columns]
 soil = clean_str_cols(soil)
@@ -121,7 +101,7 @@ if soil_dupes:
     raise ValueError(f"Soil source has {soil_dupes} duplicate district_key rows -- fix source before merging.")
 
 
-# --- 1d. Crop yield data: THE FIX -- load ALL 5 year-files, not just one ---
+# Crop yield data: THE FIX load ALL 5 year-files, not just one
 CEREAL_FILES = [
     "nepal_cereals_2075_76.csv",
     "nepal_cereals_2076_77.csv",
@@ -139,11 +119,11 @@ for fname in CEREAL_FILES:
     df["Crop"] = df["Crop"].str.strip()
     df["Year_BS"] = df["Year_BS"].str.strip()
 
-    # "N/A" strings -> real NaN so they don't get treated as valid duplicate rows
+    # "N/A" = NaN so they don't get treated as valid duplicate rows
     for c in ["Area_Ha", "Production_Mt", "Yield_MtHa"]:
         df[c] = pd.to_numeric(df[c], errors="coerce")
 
-    # Drop fully-empty junk rows (e.g. the MAHOTTARI Barley N/A row in 2075/76)
+    # Drop fully-empty junk rows 
     df = df.dropna(subset=["Area_Ha", "Production_Mt", "Yield_MtHa"], how="all")
 
     # Drop exact duplicate (district, crop, year) rows (e.g. KAILALI Barley in 2079/80)
@@ -156,7 +136,7 @@ for fname in CEREAL_FILES:
 
 cereals_all = pd.concat(cereal_frames, ignore_index=True)
 
-# Sanity: at most one row per (district, crop, year) after cleanup above
+# Sanity: at most one row per (district, crop, year) 
 dup_check = cereals_all.duplicated(subset=["district_key", "Year_BS", "Crop"]).sum()
 if dup_check:
     raise ValueError(f"Still have {dup_check} duplicate (district, crop, year) rows after cleanup -- investigate.")
@@ -171,10 +151,6 @@ cereals_wide = cereals_all.pivot_table(
 cereals_wide.columns = [f"{crop}_{metric}" for metric, crop in cereals_wide.columns]
 cereals_wide = cereals_wide.reset_index()
 
-
-# ---------------------------------------------------------------------
-# 2. Merge datasets onto base (district x year grain)
-# ---------------------------------------------------------------------
 merged = alpha.merge(soil, on="district_key", how="left", validate="many_to_one")
 merged = merged.merge(npk, on="district_key", how="left", validate="many_to_one")
 # THE FIX: join crop data on BOTH district_key and Year_BS, not district_key alone
@@ -188,9 +164,7 @@ merged = merged.rename(columns={"district_key": "District_Key"})
 merged = merged.sort_values(["Year_AD", "District_Key"]).reset_index(drop=True)
 
 
-# ---------------------------------------------------------------------
-# 3. Validation
-# ---------------------------------------------------------------------
+# Validation
 print("\nFinal Shape:", merged.shape)
 print("Districts:", merged["District_Key"].nunique(), "| Years:", sorted(merged["Year_AD"].unique()))
 
@@ -212,12 +186,12 @@ for dist, g in merged.groupby("District_Key"):
 
 if static_districts:
     print(f"\nWARNING: {len(static_districts)} districts have IDENTICAL crop values across all years "
-          f"(this is the bug from before -- something's still wrong): {static_districts}")
+          f"(this is the bug from before so something's still wrong): {static_districts}")
 else:
     print("\nOK: crop values vary by year for all districts (year-join bug is fixed).")
 
 merged.to_csv(OUT_PATH, index=False, na_rep="N/A")
 print(f"\nSUCCESS: Saved merged dataset to {OUT_PATH}")
-print("Note: missing values are written as the literal text 'N/A' (not blank cells).")
-print("When loading this file back for modeling, tell pandas to treat 'N/A' as missing, e.g.:")
-print('    pd.read_csv("nepal_merged_dataset.csv", na_values=["N/A"])')
+print("Note: missing values are written as the literal text 'N/A'")
+print("When loading this file back for modeling, tell pandas to treat 'N/A' as missing:")
+print('pd.read_csv("nepal_merged_dataset.csv", na_values=["N/A"])')

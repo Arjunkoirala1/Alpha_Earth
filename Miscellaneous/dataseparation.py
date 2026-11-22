@@ -2,7 +2,7 @@ import pandas as pd
 
 # Load the dataset
 df = pd.read_csv(r"C:\Users\SRDC\Desktop\Alpha_earth\merged_dataset\nepal_merged_dataset.csv")
-df.columns = df.columns.str.strip()  # clean up whitespace in headers
+df.columns = df.columns.str.strip()  
 
 # Common identifier columns you'll want in both files
 id_cols = ["District_Key", "District", "Year_AD", "Year_BS", "Province"]

@@ -24,7 +24,7 @@ alpha_earth = ee.ImageCollection('GOOGLE/SATELLITE_EMBEDDING/V1/ANNUAL')
 years = [2019, 2020, 2021, 2022, 2023]
 all_results = []
 
-print("Processing Zonal Statistics for 77 districts across 5 years...")
+print("Processing Zonal Statistics for 77 districts across 5 years")
 
 for yr in years:
     print(f"Extracting Year {yr}...")
